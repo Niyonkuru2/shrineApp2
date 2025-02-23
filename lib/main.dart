@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shrine/home.dart';
+import 'package:shrine/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Shrine',
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
